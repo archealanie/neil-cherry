@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=Text, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Arizonia&family=Fredericka+the+Great&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/app.css">
+    <title>N & C</title>
+</head>
+<body>
+    <div class="relative w-full h-screen overflow-hidden"  data-aos="fade-up">
+        <!-- Slide 1 -->
+        <!-- <div class="absolute inset-0 bg-cover bg-center fade1" style="background-image: url('src/img/temp/propose/081e43ce-7358-4922-8806-c5eee7331bf1.jpg');"></div> -->
+        <div class="absolute inset-0 bg-cover bg-center fade1" style="background-image: url('src/img/temp/hill.jpg');"></div>
+        
+        <!-- Slide 2 -->
+        <div class="absolute inset-0 bg-cover bg-center fade2" style="background-image: url('src/img/temp/horse.jpg');"></div>
+        
+        <!-- Slide 3 -->
+        <div class="absolute inset-0 bg-cover bg-center fade3" style="background-image: url('src/img/temp/lake.jpg');"></div>
+        <!-- <div class="absolute inset-0 bg-center fade1" style="background-image: url('src/img/temp/propose/081e43ce-7358-4922-8806-c5eee7331bf1.jpg'); height: 100px"></div> -->
+
+        <!-- Emerald green overlay -->
+        <div class="absolute inset-0 bg-gradient-to-b from-emerald-500/30 to-emerald-700/30"></div>
+
+        <!-- Content overlay -->
+        <div class="relative z-10 flex flex-col items-center justify-center h-full bg-black/40 text-center space-y-4">
+
+            <!-- Text below -->
+            <div class="text-white">
+                <h1 class="text-xl font-amiri uppercase mb-32">
+                    Malugod namin kayong inaanyayahan
+                </h1>
+                <div class="my-24">
+                    <h1 class="text-8xl font-gellatio">Neil</h1>
+                    <h1 class="text-5xl font-arizonia my-4 ">&</h1>
+                    <h1 class="text-8xl font-gellatio">Cherry</h1>
+                </div>
+                <div class="text-xl font-amiri uppercase mt-10 fade-up">
+                    <p>Natagpuan ko na ang iniibig ng aking kaluluwa.</p>
+                    <p>-- Awit ni Solomon 3:4 --</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Countdown -->
+    <div class="w-full bg-gray-100 pb-16">
+        <div class="text-center py-16">
+            <h1 class="font-bold text-primary-theme mb-4 font-merriweather">PETSA NG KASAL</h1>
+            <p class="text-4xl text-browm-theme mb-8 font-merriweather">JANUARY 24, 2026</p>
+
+            <div id="countdown" class="flex justify-center space-x-4 font-merriweather" data-aos="fade-up">
+                <div>
+                    <div class="bg-primary-theme shadow-sm w-28 h-28 flex items-center justify-center rounded-lg">
+                        <span id="days" class="block text-5xl text-white">0</span>
+                    </div>
+                    <span class="text-sm text-gray-500 mt-5">Days</span>
+                </div>
+                <div>
+                    <div class="bg-primary-theme shadow-sm w-28 h-28 flex items-center justify-center rounded-lg">
+                        <span id="hours" class="block text-5xl text-white">0</span>
+                    </div>
+                    <span class="text-sm text-gray-500 mt-5">Hours</span>
+                </div>
+                <div>
+                    <div class="bg-primary-theme shadow-sm w-28 h-28 flex items-center justify-center rounded-lg">
+                        <span id="minutes" class="block text-5xl text-white">0</span>
+                    </div>
+                    <span class="text-sm text-gray-500 mt-5">Minutes</span>
+                </div>
+                <div>
+                    <div class="bg-primary-theme shadow-sm w-28 h-28 flex items-center justify-center rounded-lg">
+                        <span id="seconds" class="block text-5xl text-white">0</span>
+                    </div>
+                    <span class="text-sm text-gray-500 mt-5">Seconds</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-3 gap-4 px-5">
+            <div class="bg-black h-[300px] bg-cover bg-center" style="background-image: url('src/img/temp/propose/811c98b5-3da4-4cd8-a304-661a9eb0503d.jpg');"></div>
+            <div class="bg-black h-[300px] bg-cover bg-center" style="background-image: url('src/img/temp/propose/c2526d1d-0f04-4321-85f7-bf5854e3938a.jpg');"></div>
+            <div class="bg-black h-[300px] bg-cover bg-center" style="background-image: url('src/img/temp/propose/a9d729d2-350c-4b05-8ec6-138586518540.jpg');"></div>
+        </div>
+    </div>
+
+    <!-- Location -->
+    <div class="min-h-[100px] flex items-center justify-center py-24">
+        <div class="text-center w-[70%]">
+            <div class="pb-10 mb-8">
+                <h1 class="text-xl mb-8 font-merriweather text-browm-theme">LOKASYON</h1>
+                <p class="text-7xl text-primary-theme">
+                    <span class="font-merriweather">ATS</span>
+                    <span class="font-gellatio">Farmyard</span> 
+                </p>
+                <p class="font-merriweather">Calauan, Laguna</p>
+            </div>
+
+            <div class="grid grid-cols-2 gap-2 mb-5">
+                <div class="bg-black h-[350px] bg-cover bg-center mb-5" style="background-image: url('src/img/temp/ats.jpg');" data-aos="fade-right"></div>
+            
+                <div class="bg-black h-[350px] bg-cover bg-center" style="background-image: url('src/img/map/ats.png');" data-aos="fade-left">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3868.378654833257!2d121.33914379999999!3d14.172586500000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd5fc3e8675347%3A0xfea19beb5e4813f5!2sATS-Farmyard%20Event%20Venue%20Rental!5e0!3m2!1sen!2sph!4v1755791431793!5m2!1sen!2sph" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            
+            <a class="px-4 py-3 border border-amber-700 text-amber-700 rounded hover:bg-amber-700 hover:text-white transition" target="_blank"
+                href="https://www.google.com/maps/place/ATS-Farmyard+Event+Venue+Rental/data=!4m2!3m1!1s0x0:0xfea19beb5e4813f5?sa=X&ved=1t:2428&ictx=111">
+                Buksan ang Mapa
+            </a>
+        </div>
+    </div>
+    
+    <!-- Timeline -->
+    <div class="flex items-center justify-center bg-[#694b2f0d] py-32">
+        <div class="w-[70%] text-center">
+            <p class="text-primary-theme flex justify-center mb-4">
+                <span class="text-5xl font-merriweather">Wedding Day</span>
+                <span class="text-6xl font-gellatio">Timeline</span> 
+            </p>
+            <div class="flex justify-center mb-12">
+                <img class="w-[30%]" src="src/img/decor/art-deco-outline-stroke-in-golden-color.png" alt="">
+            </div>
+            <div class="flex justify-center space-x-4 mb-10">
+                <div class="text-center w-40" data-aos="fade-up" data-aos-delay="0">
+                    <div class="h-32 bg-primary-theme text-white flex flex-col items-center justify-center rounded-lg mb-3">
+                        <i class="fa-regular fa-clock fa-2x"></i>
+                        <p class="text-3xl mt-2 font-amiri font-bold">3PM</p>
+                    </div>
+                    <p class="text-lg text-gray-500 font-merriweather">Call Time</p>
+                </div>
+                <div class="text-center w-40" data-aos="fade-up" data-aos-delay="50">
+                    <div class="h-32 bg-primary-theme text-white flex flex-col items-center justify-center rounded-lg mb-3">
+                        <i class="fa-solid fa-church fa-2x"></i>
+                        <p class="text-3xl mt-2 font-amiri font-bold">3:30PM</p>
+                    </div>
+                    <p class="text-lg text-gray-500 font-merriweather">Ceremony</p>
+                </div>
+                <div class="text-center w-40" data-aos="fade-up" data-aos-delay="100">
+                    <div class="h-32 bg-primary-theme text-white flex flex-col items-center justify-center rounded-lg mb-3">
+                        <i class="fa-regular fa-camera fa-2x"></i>
+                        <p class="text-3xl mt-2 font-amiri font-bold">5PM</p>
+                    </div>
+                    <p class="text-lg text-gray-500 font-merriweather">Reception & Photo</p>
+                </div>
+                <div class="text-center w-40" data-aos="fade-up" data-aos-delay="150">
+                    <div class="h-32 bg-primary-theme text-white flex flex-col items-center justify-center rounded-lg mb-3">
+                        <i class="fa-solid fa-champagne-glasses fa-2x"></i>
+                        <p class="text-3xl mt-2 font-amiri font-bold">6PM</p>
+                    </div>
+                    <p class="text-lg text-gray-500 font-merriweather">Program</p>
+                </div>
+                <div class="text-center w-40" data-aos="fade-up" data-aos-delay="200">
+                    <div class="h-32 bg-primary-theme text-white flex flex-col items-center justify-center rounded-lg mb-3">
+                        <i class="fa-solid fa-utensils fa-2x"></i>
+                        <p class="text-3xl mt-2 font-amiri font-bold">7PM</p>
+                    </div>
+                    <p class="text-lg text-gray-500 font-merriweather">Dinner</p>
+                </div>
+            </div>
+            <div class="text-gray-500 font-merriweather text-sm">
+                <p>Sisimulan po natin ang programang ito, kaya't hiniling po namin na dumating kayo nang maaga o tamang oras.</p>
+                <p>Maraming salamat po sa inyong pagiging maagaagap.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dress Code -->
+    <div class="flex items-center justify-center py-20">
+    <!-- <div class="flex items-center justify-center py-20 shadow-[0_5px_10px_rgba(0,0,0,0.1)]"> -->
+        <!-- <img class="w-[70%]" src="src/img/decor/vector-watercolor-flower-illustration-isolated-white2.png" alt=""> -->
+        <div class="w-[70%] text-center">
+            <div class="mb-14">
+                <h1 class="text-2xl mb-8 font-merriweather text-browm-theme">KASUOTAN</h1>
+                <p class="text-6xl font-gellatio text-primary-theme">Gayak at Bihis</p>
+                <div class="flex justify-center">
+                    <img class="w-[40%] my-5" src="src/img/decor/gold-luxury-line-png.png" alt="">
+                </div>
+            </div>
+            <div class="flex justify-center font-merriweather text-primary-theme">
+                <div class="mx-10" data-aos="fade-up">
+                    <h1 class="text-2xl font-bold mb-5">GAYAK</h1>
+                    <div class="mb-5">
+                        <p class="text-browm-theme font-bold">LALAKI</p>
+                        <div>Polo or Long Sleeves, Leader Shoes</div>
+                        <p><em>(No Jeans, Rubber Shoes)</em></p>
+                    </div>
+
+                    <div class="mb-2">
+                        <p class="text-browm-theme font-bold">BABAE</p>
+                        <div>Long Dress / Formal Attire</div>
+                    </div>
+                </div>
+                <div class="mx-10" data-aos="fade-up">
+                    <h1 class="text-2xl font-bold mb-5">KULAY</h1>
+                    <div class="flex justify-center mb-1">
+                        <div class="w-20 h-20 mx-1 rounded-full bg-[#235a4f] bg-[url('src/img/decor/transparent.png')] bg-cover bg-center"></div>
+                        <div class="w-20 h-20 mx-1 rounded-full bg-[#64796c] bg-[url('src/img/decor/transparent.png')] bg-cover bg-center"></div>
+                        <div class="w-20 h-20 mx-1 rounded-full bg-[#c26f69] bg-[url('src/img/decor/transparent.png')] bg-cover bg-center"></div>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="w-20 h-20 mx-1 rounded-full bg-[#a76545] bg-[url('src/img/decor/transparent.png')] bg-cover bg-center"></div>
+                        <div class="w-20 h-20 mx-1 rounded-full bg-[#f5f7ec] bg-[url('src/img/decor/transparent.png')] bg-cover bg-center"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid grid-cols-3 gap-1">
+        <div class="bg-black h-[300px] bg-cover bg-center" style="background-image: url('src/img/temp/propose/811c98b5-3da4-4cd8-a304-661a9eb0503d.jpg');"></div>
+        <div class="bg-black h-[300px] bg-cover bg-center" style="background-image: url('src/img/temp/propose/081e43ce-7358-4922-8806-c5eee7331bf11.jpg');"></div>
+        <div class="bg-black h-[300px] bg-cover bg-center" style="background-image: url('src/img/temp/brown.jpg');"></div>
+    </div>
+
+    <!-- Entourage -->
+    <div class="flex items-center justify-center py-28">
+        <div class="w-[80%] text-center grid place-items-center">
+            <!-- <img class="w-[70%]" src="src/img/decor/vector-watercolor-flower-illustration-isolated-white2.png" alt=""> -->
+            <!-- <img class="w-[70%]" src="src/img/decor/gold-luxury-line-png.webp" alt=""> -->
+            <div class="mb-16">
+                <div class="flex justify-center mb-5">
+                    <img class="w-[30%]" src="src/img/decor/gold-luxury-line-png.png" alt="">
+                </div>
+                <h1 class="font-bold text-browm-theme mb-4 font-merriweather">NEIL & CHERRY</h1>
+                <p class="text-7xl text-primary-theme font-gellatio mt-10 mb-10">Ang Entourage</p>
+                <!-- <div class="flex justify-center">
+                    <img class="w-[70%]" src="src/img/decor/gold-luxury-line-png.png" alt="">
+                </div> -->
+                <div class="flex justify-center">
+                        <img class="w-[50%] " src="src/img/decor/vector-watercolor-flower-illustration-isolated-white2.png" alt="">
+                    </div>
+            </div>
+
+            <div class="font-merriweather text-primary-theme leading-loose">
+                <!-- <div class="mb-10">
+                    <p><b>MAGKAKASAL</b></p>
+                    <p>JOVITMAR BUMARLONG</p>
+                </div> -->
+
+                <div class="mb-10" data-aos="fade-up">
+                    <!-- <div class="flex justify-center mb-5">
+                        <img class="w-[50%] rotate-180" src="src/img/decor/vector-watercolor-flower-illustration-isolated-white2.png" alt="">
+                    </div> -->
+                    <p class="text-2xl mb-5 font-bold">IKAKASAL</p>
+                    <div class="flex justify-center">
+                        <div class="px-5">
+                            <p class="font-gellatio">Groom</p>
+                            <p>NEIL ARJAY TAGAOC ESCUETA</p>
+                        </div>    
+                        <div class="px-5">
+                            <p class="font-gellatio">Bride</p>
+                            <p>CHERRY MAE SAVELLANO GALANTA</p>
+                        </div>    
+                    </div>
+                </div>
+
+                <div class="mb-10" data-aos="fade-up">
+                    <p class="text-2xl mb-5 font-bold">MGA MAGULANG</p>
+                    <div class="flex justify-center">
+                        <div class="px-5">
+                            <div class="mb-5">
+                                <p class="font-bold">MOTHER OF THE GROOM</p>
+                                <p>MRS. GEMMA TAGA-OC ESCUETA</p>
+                            </div>
+                            <div class="mb-5">
+                                <p class="font-bold">TITO OF THE GROOM</p>
+                                <p>MR. VICTORINO ESCUETA</p>
+                            </div>
+                        </div>    
+                        <div class="px-5">
+                            <div class="mb-5">
+                                <p class="font-bold">FATHER OF THE BRIDE</p>
+                                <p>MR. TOMMY SABADO GALANTA</p>
+                            </div>
+                            <div class="mb-5">
+                                <p class="font-bold">MOTHER OF THE BRIDE</p>
+                                <p>MRS. VILMA SAVELLANO GALANTA</p>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+
+                <div class="mb-10" data-aos="fade-up">
+                    <div class="flex justify-center">
+                        <div class="px-5">
+                            <p class="font-gellatio font-bold">Best Man</p>
+                            <p>NERVIN TAGAOC ESCUETA</p>
+                        </div>    
+                        <div class="px-5">
+                            <p class="font-gellatio font-bold">Maid of Honor</p>
+                            <p>AIVIE SAVELLANO GALANTA</p>
+                        </div>    
+                    </div>
+                </div>
+
+                <div class="mb-10" data-aos="fade-up" data-aos-delay="50">
+                    <div class="mb-5">
+                        <p class="text-2xl font-bold">PANGUNAHING SAKSI</p>
+                        <p><i>NINONG AT NINANG</i></p>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="px-5 text-right max-w-[300px]">
+                            <p>CARLOS LEDESMA</p>
+                            <p>PETRONILO ANDRES</p>
+                            <p>RYAN RIVERA</p>
+                            <p>CLAUDE EDWARDS ROBERTS</p>
+                            <p>REYNALDO CAROLINO</p>
+                            <p>SHERWYNNE AGUB</p>
+                            <p>GERRY GADISTA</p>
+                            <p>DOCTOR CHESTER DIRECTO</p>
+                            <p>MAYOR ERIC BOLADO LOPEZ</p>
+                            <p>PASTOR RONNIE SINFUEGO</p>
+                            <p>TITO REY ESCUETA</p>
+                            <p>MAAM ANN HUSBAND</p>
+                            <p>MR. NAPTALIE VANGUARDIA</p>
+                        </div>    
+                        <div class="px-5 text-left max-w-[300px]">
+                            <p>PRECY LEDESMA </p>
+                            <p>NELIA ANDRES</p>
+                            <p>DR. CHERICA PACQUIN</p>
+                            <p>JENNIFER ROBERTS </p>
+                            <p>MARIJEAN TUAZON</p>
+                            <p>MONETTE RECODO </p>
+                            <p>SIMONETTE  GADISTA </p>
+                            <p>DR. CHERRIE DIRECTO</p>
+                            <p>EVELYN DELOS REYES </p>
+                            <p>MARY LUZ SINFUEGO </p>
+                            <p>EVELYN ESCUETA</p>
+                            <p>MARY ANN ZARZILLA</p>
+                            <p>ATTY. NIRMALA VANGUARDIA</p>
+                        </div>    
+                    </div>
+                    <div>
+                        <p>MARY JEAN CONSISTENTE</p>
+                        <p>JUDITH LABIAGA </p>
+                        <p>JAY ESCUETA AND MARITES ESCUETA</p>
+                    </div>
+                </div>
+
+                <div class="mb-10" data-aos="fade-up">
+                    <div class="px-5">
+                        <p class="text-2xl font-bold mb-2">MGA PILING GINOO</p>
+                        <p>NINO MANGABAN </p>
+                        <p>RYAN LANZER GALANTA </p>
+                        <p>LOEID GALANTA </p>
+                        <p>LESTER ZAMUDIO</p>
+                        <p>ARIEL CONVERSION</p>
+                        <p>MARK PAUL FLORES </p>
+                        <p>DANIEL REYNALDO LADRA</p>
+                    </div> 
+                </div> 
+                <div class="mb-10" data-aos="fade-up">
+                    <div class="px-5">
+                        <p class="text-2xl font-bold mb-2">MGA PILING BINIBINI</p>
+                        <p>CINDY CARYL CADIVEN</p>
+                        <p>JANNINE ELLEVA</p>
+                        <p>AIRA ROSE GALANTA </p>
+                        <p>ELIZABETH ESCUETA</p>
+                        <p>HONALYN SAVELLANO </p>
+                        <p>JINKY RENTA</p>
+                    </div>
+                </div>
+
+                <div class="flex justify-center mb-10" data-aos="fade-up">
+                    <img class="w-[40%] my-5" src="src/img/decor/gold-luxury-line-png.png" alt="">
+                </div>
+                
+                <div class="flex justify-center mb-10" data-aos="fade-up">
+                    <div class="px-5">
+                        <p class="font-gellatio font-bold">Cord</p>
+                        <p><em>To bind us together</em></p>
+                        <p> JULITA AND FLORANTE GALANTA</p>
+                    </div>    
+                    <div class="px-5">
+                        <p class="font-gellatio font-bold">Veil</p>
+                        <p><em>To cover us in unity</em></p>
+                        <p> JOJET AND ANCILMO GALANTA JR.</p>
+                    </div>     
+                </div>
+                
+                <div class="px-5 mb-10" data-aos="fade-up" data-aos-delay="50">
+                    <p class="font-gellatio font-bold">Candle</p>
+                    <p><em>To light our path</em></p>
+                    <p>MA. CRISTINA & BENJIE DE LOS ANGELES</p>
+                </div>
+
+                <div class="mb-10" data-aos="fade-up" data-aos-delay="50">
+                    <p class="font-gellatio font-bold">Flower Girls</p>
+                    <p>NHEIYAN GALANTA</p>
+                    <p>NHABI GALANTA </p>
+                    <p>QUEEN ALYSSA E. DE LOS ANGELES</p>
+                    <p>KIRSTEN KIAN LORENZO</p>
+                    <p>HOPE SOFIA JOY MAGDALES</p>
+                    <p>CHLOE ANDREA Q. MAÑIBO</p>
+                    <p>AMANDA PAULINE CARANDANG</p>
+                </div>
+
+        
+                <div class="px-5 mb-10" data-aos="fade-up" data-aos-delay="50">
+                    <p class="font-gellatio font-bold">Bible Bearer</p>
+                    <p>YOAN GRAY LAZO</p>
+                </div>
+                <div class="px-5 mb-10" data-aos="fade-up">
+                    <p class="font-gellatio font-bold">Coin Bearer</p>
+                    <p><em>To bless our prosperity</em></p>
+                    <p>LUCAS ISAAC RAZON</p>
+                </div>    
+                <div class="px-5 mb-10" data-aos="fade-up" data-aos-delay="50">
+                    <p class="font-gellatio font-bold">Ring Bearer</p>
+                    <p><em> To bind our love</em></p>
+                    <p> JAMES TIMOTHY JOHN GALANTA</p>
+                </div>
+            </div>
+
+            <img class="w-[70%] rotate-180" src="src/img/decor/vector-watercolor-flower-illustration-isolated-white2.png" alt="">
+        </div>
+    </div>
+</body>
+
+<script>
+    // Set your wedding date here 🎉
+    const weddingDate = new Date("2026-01-24T16:00:00").getTime();
+
+    const daysEl = document.getElementById("days");
+    const hoursEl = document.getElementById("hours");
+    const minutesEl = document.getElementById("minutes");
+    const secondsEl = document.getElementById("seconds");
+    const countdownEl = document.getElementById("countdown");
+
+    function updateCountdown() {
+    const now = new Date().getTime();
+    const distance = weddingDate - now;
+
+    if (distance < 0) {
+        countdownEl.innerHTML = `<span class="text-3xl font-bold text-emerald-600">🎉 Just Married!</span>`;
+        clearInterval(interval);
+        return;
+    }
+
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    daysEl.innerText = days;
+    hoursEl.innerText = hours;
+    minutesEl.innerText = minutes;
+    secondsEl.innerText = seconds;
+    }
+
+    const interval = setInterval(updateCountdown, 1000);
+    updateCountdown();
+</script>
+
+<script>
+  AOS.init({
+    duration: 1200,
+    // once: true
+  });
+</script>
+</html>

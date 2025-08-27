@@ -1,0 +1,39 @@
+/*
+    Everything about fonts
+*/
+
+@font-face {
+  font-family: 'Gellatio';
+  src: local('Gellatio'),
+       url('../font/gellatio/Gellatio Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-gellatio {
+  font-family: 'Gellatio', sans-serif;
+}
+
+.font-arizonia {
+  font-family: "Arizonia", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-fredericka {
+  font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-merriweather {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-amiri {
+  font-family: "Amiri", serif;
+  font-weight: 400;
+  font-style: normal;
+}

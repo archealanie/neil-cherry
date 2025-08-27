@@ -1,0 +1,44 @@
+
+/* Import Font Css */
+@import url(font.css);
+
+
+/* Banner Slideshow */
+@keyframes fade {
+    0%, 100% { opacity: 0 }
+    10%, 30% { opacity: 1 }
+    40%, 90% { opacity: 0 }
+}
+.fade1 { animation: fade 15s infinite }
+.fade2 { animation: fade 15s infinite 5s }
+.fade3 { animation: fade 15s infinite 10s }
+
+@keyframes fadeInUp {
+    from {
+    opacity: 0;
+    transform: translateY(20px);
+    }
+    to {
+    opacity: 1;
+    transform: translateY(0);
+    }
+}
+.animate-fadeInUp {
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+.text-primary-theme {
+    color: #517961 ;
+}
+
+.bg-primary-theme {
+    background: #517961;
+}
+
+.text-browm-theme {
+    color: #694B2F
+}
+
+.bg-browm-theme {
+    background: #694B2F;
+}
